@@ -372,9 +372,16 @@ export default function YogeshPhysicsClasses() {
                 >
                   {/* Placeholder teacher image */}
                   <div className="w-full h-full flex flex-col items-center justify-center">
+                    
                     <div className="w-40 h-40 rounded-full bg-gradient-to-br from-blue-500 to-orange-500 flex items-center justify-center mb-4 text-white"
                       style={{ fontSize: "5rem", boxShadow: "0 0 30px rgba(249,115,22,0.4)" }}>
-                      👨‍🏫
+                        
+                        <img
+                          src="/pic.jpg"
+                          alt="Yogesh Sir"
+                          className="w-full h-full object-cover"
+                        />
+
                     </div>
                     <div className="hero-font text-white text-xl font-bold">Yogesh Sir</div>
                     <div className="body-font text-orange-400 text-sm mt-1">M.Sc. Physics | Airforce Selected</div>
